@@ -1,0 +1,30 @@
+PWR_MGMT_1 = 0x6b
+
+ACCEL_CONFIG = 0x1C
+ACCEL_XOUT_H = 0x3B
+ACCEL_XOUT_L = 0x3C
+ACCEL_YOUT_H = 0x3D
+ACCEL_YOUT_L = 0x3E
+ACCEL_ZOUT_H = 0x3F
+ACCEL_ZOUT_L = 0x40
+
+GYRO_CONFIG = 0x1B
+GYRO_XOUT_H = 0x43
+GYRO_XOUT_L = 0x44
+GYRO_YOUT_H = 0x45
+GYRO_YOUT_L = 0x46
+GYRO_ZOUT_H = 0x47
+GYRO_ZOUT_L = 0x48
+
+TEMP_H = 0x41
+TEMP_L = 0x42
+
+#AK8963 registers
+AK8963_ADDR   = 0x0C
+AK8963_ST1    = 0x02
+HXH          = 0x04
+HYH          = 0x06
+HZH          = 0x08
+AK8963_ST2   = 0x09
+AK8963_CNTL  = 0x0A
+mag_sens = 4900.0 # magnetometer sensitivity: 4800 uT
